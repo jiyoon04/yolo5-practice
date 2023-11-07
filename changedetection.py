@@ -6,8 +6,10 @@ from datetime import datetime
 
 class ChangeDetection:
     result_prev = []
-    HOST = 'http://127.0.0.1:8000'
-    username = 'admin'
+    #HOST = 'http://127.0.0.1:8000'
+    HOST="http://jiyoon04.pythonanywhere.com"
+    #username = 'admin'
+    username='jiyoon04'
     password = 'bh920506'
     token = ''
     title = ''
